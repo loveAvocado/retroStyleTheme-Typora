@@ -105,14 +105,17 @@ p {
 
 /*Styling border 表格邊框*/
 #write table {
+    border-top: 0.2rem solid black;
+    border-bottom: 0.2rem solid black;
     border-collapse: collapse;
     max-width: 100%;
 }
 
-#write td,th {
-    border-bottom: 0.1rem solid black;
-
+#write th {
+    border-bottom: 0.2rem double black;
 }
+
+
 
 #write table.md-grid-board {
     border-spacing: 2px;
