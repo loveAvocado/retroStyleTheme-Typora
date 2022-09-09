@@ -1,0 +1,183 @@
+/*link font-family (from fonts.google) 字體庫鏈接（來自fonts.google)*/
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+
+/*Style  background styles 設置背景*/
+html {
+    background-color: whitesmoke;
+    max-width: 80%;
+    margin: auto;
+}
+
+/*Style fonts parameter 字體參數*/
+html {
+    font-size: 14px;
+}
+
+p {
+    font-family: 'Special Elite', cursive;
+}
+
+/*Footers Fonts 尾註字體參數*/
+#write .md-def-name {
+    font-family: 'Special Elite', cursive;
+}
+
+#write .md-def-content: {
+    font-family: 'Special Elite', cursive;
+}
+
+
+
+/*Scale Titles 標題大小*/
+#write h1 {
+    font-family: 'UnifrakturMaguntia', serif;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+#write h2 {
+    font-size: 3rem;
+    font-family: 'IM Fell English SC', serif;
+}
+
+#write h3 {
+    font-size: 2.5rem;
+    font-family: 'IM Fell English SC', serif;
+}
+
+#write h4 {
+    font-size: 2rem;
+    font-family: 'IM Fell English SC', serif;
+}
+
+#write h5 {
+    font-size: 1.75rem;
+    font-family: 'IM Fell English SC', serif;
+}
+
+#write h6 {
+    font-size: 1.5rem;;
+    font-family: 'IM Fell English SC', serif;
+}
+
+/*Writting Aarea 書寫區域*/
+#write {
+    max-width: 75%;
+    font-size: 1rem;
+    color: #000000;;
+    margin: auto;
+    padding: 0 0.5rem; 
+}
+
+/*Quoteblock 引文*/
+#write blockquote {
+    border-top: 2px double  black;
+    border-top: 85%;
+    padding: 0.3rem;
+    color: #000000;
+    font-style: oblique;
+    text-align: center;   
+    font-size: 1.1rem;
+}
+
+/*Convert highlight to color 高亮改為紅色*/
+#write mark {
+    color: rgba(139,0,18,1);
+    background: rgba(130,49,172,0);
+}
+
+/*Styling Tables Text 表格文本樣式*/
+#write td {
+    font-family: 'Special Elite', cursive;
+    padding: 0.3rem 0.3rem;
+     
+}
+
+#write th {
+    font-family: 'IM Fell English SC', serif; 
+    text-align: left;
+    padding: 0.3rem 0.3rem;
+    
+}
+
+/*Styling border 表格邊框*/
+#write table {
+    border-collapse: collapse;
+    max-width: 100%;
+}
+
+#write td,th {
+    border-bottom: 0.1rem solid black;
+
+}
+
+#write table.md-grid-board {
+    border-spacing: 2px;
+    border-collapse: separate;
+    margin: 10px auto;
+}
+/* Deprecated
+#write tr:hover {
+    background-color: black;
+    color: white;
+}
+*/
+
+/*Horizontal Line 水平線烏克蘭風格<<UKR Version>>*/
+#write hr {
+    border: solid;
+    border-color: linear-gradient(180deg,#0057b7,#ffd700)
+    border-width: 0.2rem;
+    border-top-color: #0057b7;
+    border-bottom-color: #ffd700; 
+    border-left: 0;
+    border-right: 0;
+}
+
+/*Alternative Style 水平線常規風格<<Normal Version>>*/
+/*
+#write hr {
+    border: solid;
+    border-width: 0.1rem;
+    border-color: #000000; 
+    border-left: 0;
+    border-right: 0;
+}
+*/
+
+
+
+/* Code block 代碼塊*/
+#write code {
+    background-color: lightgrey;
+    border: 1px soild grey;
+    padding: 0.1rem  0.2rem;
+    border-radius: 3px;
+    font-family: monospace;  
+}
+
+
+/*links 鏈接（圖片和URL）*/
+#write a {   
+    color: darkgoldenrod;
+}
+
+#write img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*this parameter is directly copied from w3schools tutorial...*/
+    display: block;
+    margin: auto; 
+}
+
+#write strong {
+    font-family: 'IM Fell English SC', serif;
+}
+
+
+
+/*有序列表 <ol> */
+#write ol,li  {
+    font-family: 'Special Elite', cursive;
+}
