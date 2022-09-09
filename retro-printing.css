@@ -25,7 +25,7 @@ p {
     font-family: 'Special Elite', cursive;
 }
 
-#write .md-def-content: {
+#write .md-def-content {
     font-family: 'Special Elite', cursive;
 }
 
@@ -129,7 +129,7 @@ p {
 /*Horizontal Line 水平線烏克蘭風格<<UKR Version>>*/
 #write hr {
     border: solid;
-    border-color: linear-gradient(180deg,#0057b7,#ffd700)
+    border-color: linear-gradient(180deg,#0057b7,#ffd700);
     border-width: 0.2rem;
     border-top-color: #0057b7;
     border-bottom-color: #ffd700; 
