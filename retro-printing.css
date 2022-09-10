@@ -162,6 +162,10 @@ p {
     font-family: monospace;  
 }
 
+/*Build in HTML code 嵌入html代碼*/
+#write textarea {
+    font-family: 'Special Elite', cursive;
+}
 
 /*links 鏈接（圖片和URL）*/
 #write a {   
